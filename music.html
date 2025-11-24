@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мій музичний плейлист</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&family=Geologica:wght@100..900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<link rel="icon" href="seo-social-web-network-internet_64_icon-icons.com_61485 (1).ico" type="image/x-icon">
+</head>
+<style>
+    @media (max-width: 768px) {
+        .audio-list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        audio {
+            width: 100%;
+        }
+    }
+     @media (max-width: 480px) {
+        .audio-list {
+            grid-template-columns: repeat(1fr);
+        }
+        audio {
+            width: 100%;
+        }
+    }
+    .audio-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 25px;
+        justify-items: center; 
+        margin: 30px auto;
+        max-width: 1200px;
+        padding: 10px;
+        background: #bdbdbd;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: left;
+    }
+    .track-card {
+        background: rgb(236, 236, 236);
+        border: 5px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        margin: 15px 0;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .track-info {
+        display: flex;
+        align-items: center; 
+        gap: 10px; 
+        margin-bottom: 10px;
+    }
+    .track-info img {
+        border-radius: 8px;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+    body{
+        background: linear-gradient(#4e4e4e, white);
+        
+    }
+    h1 {
+        font-family: "Geologica", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        color: white;
+    }
+    h3{
+       font-family: "Geologica", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    p{
+        font-family: "Geologica", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+</style>
+<body>
+<h1>Мій музичний плейлист</h1>
+<p style="text-align: center; color: white;">Шість пісень жанрів "J-pop/rock" які мені дуже подобаються</p>
+<div class="audio-list">
+    <div class="track-card">
+        <div class="track-info">
+            <img src="cover art/otogi.jpg" alt="ca otogi">
+            <div>
+                <h3>Last Dance</h3>
+                <p>Eve - Otogi</p>
+            </div>
+        </div>
+        <audio src="audio/Last Dance.mp3" controls preload="metadata"></audio>
+    </div>
+     <div class="track-card">
+        <div class="track-info">
+            <img src="cover art/relayouter.jpg" alt="ca relayouter">
+            <div>
+                <h3>Relayouter</h3>
+                <p>inabakumori - Relayouter</p>
+            </div>
+        </div>
+        <audio src="audio/inabakumori - Relayouter (Vo. Kaai Yuki) _ 稲葉曇『リレイアウター』Vo. 歌愛ユキ.mp3" controls preload="metadata"></audio>
+    </div>
+    <div class="track-card">
+        <div class="track-info">
+            <img src="cover art/otogi.jpg" alt="ca otogi">
+            <div>
+                 <h3>Outsider</h3>
+                 <p>Eve - Otogi</p>
+            </div>
+        </div>
+       <audio src="audio/Outsider.mp3" controls preload="metadata"></audio>
+    </div>
+    <div class="track-card">
+        <div class="track-info">
+            <img src="cover art/yankee.jpg" alt="ca yankee">
+            <div>
+                <h3>Shitodo Seiten Daimeiwaku</h3>
+                <p>Kenshi Yonezu - Yankee</p>
+            </div>
+        </div>
+        <audio src="audio/Kenshi_Yonezu_-_Shitodo_Seiten_Daimeiwaku_(Rilds.com).mp3" controls preload="metadata"></audio>
+    </div>
+    <div class="track-card">
+        <div class="track-info">
+            <img src="cover art/offical number.jpg" alt="ca on">
+            <div>
+                <h3>Demon Dance Tokyo</h3>
+                <p>Eve - OFFICIAL NUMBER</p>
+            </div>
+        </div>
+        <audio src="audio/Demon Dance Tokyo.mp3" controls preload="metadata"></audio>
+    </div>
+    <div class="track-card">
+        <div class="track-info">
+            <img src="cover art/zutto issho.jpg" alt="ca zi">
+            <div>
+                <h3>ALWAYS BE WITH YOU XD</h3>
+                <p>Tatsuya Kitani - ずうっといっしょ！</p>
+            </div>
+        </div>
+        <audio src="audio/ずうっといっしょ_ALWAYS_BE_WITH_YOU_XD_Tatsuya_Kitani.mp3" controls preload="metadata"></audio>
+    </div>
+</div>
+</body>
+</html>
