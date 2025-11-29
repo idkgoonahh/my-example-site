@@ -1,0 +1,23 @@
+<xml version="1.0" encoding="UTF-8"?>
+<urlset
+xmlns="[http://www.sitemaps.org/schemas/sitemap/0.9](http://www.sitemaps.org/schema
+s/sitemap/0.9)">
+<!-- Головна сторінка -->
+<url>
+<loc>https://[idkgoonahh.github.io/my-example-site/]/</loc>
+<lastmod>2025-11-13</lastmod>
+<priority>1.0</priority>
+</url>
+<!-- Приклад додаткової сторінки "Про нас" -->
+<url>
+<loc>https://idkgoonahh.github.io/my-example-site/]/about</loc>
+<lastmod>2025-11-05</lastmod>
+<priority>0.8</priority>
+</url>
+<!-- Приклад сторінки "Контакти" -->
+<url>
+<loc>https://[idkgoonahh.github.io/my-example-site/]/contact</loc>
+<lastmod>2025-11-10</lastmod>
+<priority>0.7</priority>
+</url>
+</urlset>
